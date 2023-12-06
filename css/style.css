@@ -1,0 +1,222 @@
+/* google fonts insertado mediante import */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* estilo para todo el doc */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color de body */
+html{
+    width: 100vw;
+}
+body{
+    background-color: #292c3e;
+    overflow-x: hidden; 
+    width: 100vw;
+}
+
+/* estilos header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 100vw;
+    background-color: #fafafa;
+}
+
+.logo-qac{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+
+.titulo-header {
+   
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4em;
+    color: #292c3e;
+    
+}
+
+header nav ul{
+    display: flex;
+    
+}
+
+header nav ul li{
+ list-style: none;
+ color: black;
+ padding: 10px;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #292c3e;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+.list-menu{
+    background-color: none;
+
+}
+
+.botones-menu{
+    background-color: #292c3e;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.style-boton{
+    color: #fafafa;
+    font-size: medium;
+}
+/* estilo main inicio */
+
+
+.card{
+    height: 680px;
+    border: 2px solid #01ebcf;
+    background-color:#292c3e ;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 11px 13px 46px 2px rgba(105,221,232,0.75);
+    -webkit-box-shadow: 11px 13px 46px 2px rgba(105,221,232,0.75);
+    -moz-box-shadow: 11px 13px 46px 2px rgba(105,221,232,0.75);
+}
+
+/* estilo main inicio*/
+.fixture{
+    width: 100%;
+    height: 300px ;
+}
+
+/* estilo de la fuente de los box */
+
+section div h3{
+    font-family: 'Poppins', sans-serif;
+    color: #e7c2c2;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline;
+
+}
+.texto-box-3{
+    font-size: small;
+    
+}
+
+/* estilo main galeria */
+
+.grilla-fotos{
+    height: 400px;
+}
+
+main div h2{
+    font-family: 'Poppins', sans-serif;
+    color: #e7c2c2;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+/* .foto-galeria{
+    margin-top: 50px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+} */
+
+
+
+
+/* estilo main historia */
+
+
+.foto-historia{
+    text-align: center;
+}
+
+.texto-historia{
+    color:#01ebcf;
+    font-family: 'Open Sans', sans-serif;
+}
+main section div.texto-historia p{
+    text-align: center;
+    border: 2px solid wheat;
+    height: auto;
+    overflow: hidden;
+}
+
+
+/* estilo main contacto */
+
+
+.estilo-sexo{
+        display:flex;
+        flex-flow: wrap;
+        justify-content: flex-start;
+}
+
+.main-contacto form{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+}
+
+.main-contacto form div label{
+    display:block;
+    color: #01ebcf;
+    margin: 10px;
+    text-align: justify;
+}
+
+/* estilo main ubicacion */
+
+
+
+main div p{
+    color: #01ebcf;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+main section div iframe{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left:700px;
+}
+
+
+/* EstilO Footer */
+
+
+footer{
+    background-color: #fafafa;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.logos-footer{
+    width:60px;
+    height: 60px;
+    
+}
+
+
+
+
+
